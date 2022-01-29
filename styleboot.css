@@ -8,4 +8,24 @@
     background-color: rgb(39, 39, 39);
 }
 
+li{
+    list-style: none;
+}
 
+a{
+    text-decoration: none;
+}
+
+.footer li a{
+    color: white;
+}
+
+.footer li a:hover{
+    color: #ec342e;
+    transition: 100ms;
+}
+
+.nav-item a:hover{
+    color: #ec342e;
+    transition: 100ms;
+}

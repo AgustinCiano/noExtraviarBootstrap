@@ -1,139 +1,253 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No Extraviar</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../styleboot.css">
+  <title>No Extraviar</title>
 </head>
 <body>
-    <section class="gridContainerDiscografia">
-        <div class="logoHeader logoNoExtraviar">
-            <img src="../imagenes/logoNoExtraviar.jpeg" alt="" ">
-        </div>
 
-        <div class="gridItem header">            
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="./discografia.html" class="underline">DISCOGRAFÍA</a></li>
-            <li><a href="./fotos.html">FOTOS</a></li>
-            <li><a href="./videos.html">VIDEOS</a></li>
-            <li><a href="./historias.html">HISTORIA</a></li>
-            <li><a href="./contacto.html">CONTACTO</a></li>            
-        </div>
+  
 
-        <div class="albumesTag">Álbumes</div>
+  <!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  -->
+
+
+   
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img class="w-75 w-sm-50 rounded-circle" src="../imagenes/isologo.jpg" alt=""></a>
+
+      <!-- HAMBURGUESA -->
+
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown " aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse head " id="navbarNavDropdown">
+        <ul class="navbar-nav w-100 justify-content-evenly c-blanco display-6">
+          <li class="nav-item">
+            <a class=" active fw-bold" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="../paginas/discografia.html">Discografía</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="#">Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="#">Videos</a>
+          </li> <li class="nav-item">
+            <a class="fw-bold" href="#">Historia/s</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="#">Contacto</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+
+  <!-- DISCOGRAFIA --><!-- DISCOGRAFIA --><!-- DISCOGRAFIA --><!-- DISCOGRAFIA --><!-- DISCOGRAFIA -->
+
+
+  
+  
+  <section class="container noticiasIndex mt-4" id="portada">
+    
+    <div class="albumesTag">
+      <h2 class="col-5 col-lg-3 fw-bold display-4 p-3 mb-2 bg-danger text-white">Álbumes</h2>
+    </div>
+
+
+    <div class="row">      
+      
+      <div class="col-6 col-lg-6">
+        <img class="w-100 mt-4 imgNoticia" src="../imagenes/aLaPiedra.jpg" alt="Foto del estudio de grabación">
+      </div>
         
+      <div class="col-6 col-lg-6">
+          <h2 class="fw-bold display-4 mt-2 order-lg-first">A la Piedra</h2>
+          <p>2016</p>
+          <p class="text-start">1. Donde Vas</p>
+          <p class="text-start">2. Don de Ir</p>
+          <p class="text-start">3. Somos Oeste</p>
+          <p class="text-start">4. Almodobar</p>
+          <p class="text-start">5. Vos Tomá</p>
+          <p class="text-start">6. Algo Anormal</p>
+          <p class="text-start">7. El Goma</p>
+          <p class="text-start">8. Una Lata</p>
+          <p class="text-start">9. Ahiu</p>
+          <p class="text-start">10. Loca Suerte + Bolero</p>
+      </div>           
+    </div>
+
+
+
+    <div class="row mt-5">      
+      
+      <div class="col-6 col-lg-6">
+        <img class="w-100 mt-4 imgNoticia" src="../imagenes/noExtraviar.jpg" alt="Foto del estudio de grabación">
+      </div>
         
-        <div class="aLaPiedraTapa">
-            <img src="../imagenes/aLaPiedra.jpg" alt="" class="tapaAlbum">
-        </div>
-
-        <div class="aLaPiedra">
-            <h2>A la piedra</h2>
-        </div>
-
-        <div class="anoAlaPiedra">2014</div>
-
-        <div class="aLaPiedraTemas">
-            <h3>Donde Vas</h3>
-            <h3>Don de Ir</h3>
-            <h3>Somos Oeste</h3>
-            <h3>Almodobar</h3>
-            <h3>Vos Tomá</h3>
-            <h3>Algo Anormal</h3>
-            <h3>El Goma</h3>
-            <h3>Una Lata</h3>
-            <h3>Ahiu</h3>
-            <h3>Loca Suerte + Bolero</h3>
-        </div>
-
-
-        <div class="noExtraviarTapa">
-            <img src="../imagenes/noExtraviar.jpg" alt="" class="tapaAlbum">
-        </div>
-
-        <div class="noExtraviar">
-            <h2>No Extraviar</h2>
-        </div>
-
-        <div class="anoNoExtraviar">2012</div>
-
-        <div class="noExtraviarTemas">
-            <h3>Te Quemás</h3>
-            <h3>Despiertame</h3>
-            <h3>Voy</h3>
-            <h3>Golpe</h3>
-            <h3>Huella Fija</h3>
-            <h3>Rocky</h3>
-            <h3>Cuando</h3>
-            <h3>Tu Silencio</h3>
-            <h3>No Hay Perdon</h3>
-            <h3>Berli</h3>
-            <h3>Bonnie & Clyde</h3>
-            <h3>Vitamina + Hey San Pedro</h3>
-        </div>
-
-
-        <div class="singlesTag">Singles / EP's</div>
-
-        <div class="malditaCorazaTapa">
-            <img src="../imagenes/malditaTapa.jpg" alt="" class="tapaAlbum">
-        </div>
-
-
-        <div class="malditaCoraza">
-            <h2>Maldita Coraza</h2>
-        </div>
-
-        <div class="anoMalditaCoraza">2019</div>
-
-
-
-        <div class="dejarLaSalTapa">
-            <img src="../imagenes/dejarLaSal.jpg" alt="" class="tapaAlbum">
-        </div>
-
-
-        <div class="dejarLaSal">
-            <h2>Dejar la Sal</h2>
-        </div>
-
-        <div class="anoDejarLaSal">2019</div>
+      <div class="col-6 col-lg-6">
+        <h2 class="fw-bold display-4 mt-2 order-lg-first">No Extraviar</h2>
+        <p>2012</p>
+        <p class="text-start">1. Te Quemas</p>
+        <p class="text-start">2. Despiertame</p>
+        <p class="text-start">3. Voy</p>
+        <p class="text-start">4. Golpe</p>
+        <p class="text-start">5. Huella Fija</p>
+        <p class="text-start">6. Rocky</p>
+        <p class="text-start">7. Cuando</p>
+        <p class="text-start">8. Tu Silencio</p>
+        <p class="text-start">9. No Hay Perdón</p>
+        <p class="text-start">10. Berlín</p>
+        <p class="text-start">10. Bonie & Clyde</p>
+        <p class="text-start">10. Vitamina</p>        
+      </div>           
+    </div>
 
 
 
 
-        <div class="masAllaTapa">
-            <img src="../imagenes/masAlla.jpg" alt="" class="tapaAlbum">
-        </div>
+
+    <div class="singlesTag mt-5">
+        <h2 class="col-6 col-lg-3 fw-bold display-4 p-3 mb-2 bg-danger text-white">Singles/EPs</h2>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-6 col-lg-6">
+        <img class="w-100 mt-4 imgNoticia" src="../imagenes/malditaTapa.jpg" alt="Foto del estudio de grabación">
+      </div>        
+      <div class="col-6 col-lg-6">
+        <h2 class="fw-bold display-4 mt-2 order-lg-first">Maldita Coraza</h2>  
+        <p>2020</p>      
+      </div>              
+    </div>
 
 
-        <div class="masAlla">
-            <h2>Más Allá</h2>
-        </div>
+    <div class="row mt-5">
+        <div class="col-6 col-lg-6">
+          <img class="w-100 mt-4 imgNoticia" src="../imagenes/dejarLaSal.jpg" alt="Foto del estudio de grabación">
+        </div>        
+        <div class="col-6 col-lg-6">
+          <h2 class="fw-bold display-4 mt-2 order-lg-first">Dejar la Sal</h2> 
+          <p>2020</p>       
+        </div>              
+    </div>
 
-        <div class="anoMasAlla">2019</div>  
-
-    
-        <div class="gridItem footerDiscografia">            
-            <li><a href="https://open.spotify.com/artist/6Byr6oN4YOuCSJrdbtKByc?si=U81aXEF4Qdyn3cEcr5fQeQ" target="blank">SPOTIFY</a></li>
-            <li><a href="https://www.youtube.com/user/noextraviaroficial" target="blank">YOUTUBE</a></li>
-            <li><a href="https://www.facebook.com/NoExtraviar" target="blank">FACEBOOK</a></li>
-            <li><a href="https://www.instagram.com/noextraviar/" target="blank">INSTAGRAM</a></li>
- 
-        </div>    
-     
-
-    </section>
-    
+    <div class="row mt-5 mb-5">
+        <div class="col-6 col-lg-6">
+          <img class="w-100 mt-4 imgNoticia" src="../imagenes/masAlla.jpg" alt="Foto del estudio de grabación">
+        </div>        
+        <div class="col-6 col-lg-6">
+          <h2 class="fw-bold display-4 mt-2 order-lg-first">Mas Allá</h2> 
+          <p>2019</p>       
+        </div>              
+    </div>
 
 
-    
+  </section>
 
-    
+
+
+  <!-- FOOTER --><!-- FOOTER --><!-- FOOTER --><!-- FOOTER --><!-- FOOTER --><!-- FOOTER -->
+
+  
+  <div class="footer mt-3 mb-3 display-6 bg-black border-5 fw-bold">
+    <ol class="d-flex justify-content-evenly">
+      <li><a href="https://open.spotify.com/artist/6Byr6oN4YOuCSJrdbtKByc?si=U81aXEF4Qdyn3cEcr5fQeQ" target="blank">Spotify</a></li>
+      <li><a href="https://www.youtube.com/user/noextraviaroficial" target="blank">YouTube</a></li>
+      <li><a href="https://www.facebook.com/NoExtraviar" target="blank">Facebook</a></li>
+      <li><a href="https://www.instagram.com/noextraviar/" target="blank">Instagram</a></li>
+    </ol>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- FORMU CONTACTO --><!-- FORMU CONTACTO --><!-- FORMU CONTACTO --><!-- FORMU CONTACTO -->
+
+
+
+  <!-- <section class="container my-5 shadow-lg" id="formulario-contacto">
+
+    <div class="row">
+
+      <div class="col-12 col-lg-8">
+        <h2 class="fw-bold display-4 texte-center text-lg-start">Trabajemos juntos.</h2>  
+        <p class="text-center text-lg-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto incidunt saepe, obcaecati ipsa impedit adipisci libero, quibusdam quam ullam quis voluptatum aperiam rerum quasi consectetur enim repellendus eveniet a unde?</p>
+      
+        <form action="" class="w-100 row">
+          <div  class="col-12">
+            <input type="text" id="nombre-usuario" name="nombre-usuario" class="" placeholder="Nombre">
+          </div>
+
+          <div class="col-12">
+            <input type="text" id="apellido-usuario" name="apellido-usuario" class="" placeholder="Apellido">
+          </div>
+
+          <div class="col-12 col-lg-4 my-3" >
+            <button class="btn btn-lg bg-light ">Enviar</button>
+          </div>
+
+        </form>
+      
+      </div>
+      <div class="d-flex justify-content-center ">
+        <a href="" class="btn btn-primary btn-lg ">Quiero mi sitio web!</a>
+      </div>
+            
+      <div>
+        <img src="./imagenes/noExtraviar.jpg" alt="" class="col-4 d-lg-none">
+  
+      </div>
+
+    </div>
+
+
+
+  </section> -->
+
+  
+
+
+
+
+  <!-- CARDS --><!-- CARDS --><!-- CARDS --><!-- CARDS --><!-- CARDS --><!-- CARDS --><!-- CARDS -->
+
+
+
+
+  
+
+
+
+
+  
+  <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
