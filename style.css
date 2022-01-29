@@ -685,7 +685,15 @@
         grid-template-rows: repeat(2, 7vw) 3vw 7vw 7vw repeat(9, 7vw) 5VW repeat(7, 7vw)
 
     }
-
+        
+    .formularioTag{
+        background-color: orangered ;
+        grid-area: 4/1/5/4;
+        display: flex;
+        flex-direction: row-reverse;
+        border-right: orangered 1vw solid;
+        
+    }
 
     .formularioContacto{
         grid-area: 5/2/20/13;     
@@ -727,13 +735,14 @@
 
 
 
-/*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  */
-/*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  */
-/*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  */
-/*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  */
-/*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  */
 
 
+
+/*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  */
+/*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  */
+/*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  */
+/*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  */
+/*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  *//*  DESKTOP  */
 
 
 
@@ -1461,9 +1470,6 @@
         transition: 250ms;
         font-size: 110%;
     }
-
-
-
 
 
 }
