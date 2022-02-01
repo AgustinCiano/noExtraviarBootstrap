@@ -5,7 +5,7 @@
 
 *{
     color: white;
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(33, 37, 41);
 }
 
 li{
@@ -29,3 +29,6 @@ a{
     color: #ec342e;
     transition: 100ms;
 }
+
+
+
