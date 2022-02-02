@@ -30,5 +30,31 @@ a{
     transition: 100ms;
 }
 
+.video{
+    margin: 2vw 0 2vw 0;
+    
+}
+
+.imgNoticia{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.imgAlbum{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-item{
+    
+    object-fit: cover;
+
+}
+
+.video{
+    margin: 1%;
+}
 
 

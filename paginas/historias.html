@@ -1,60 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No Extraviar</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../styleboot.css">
+  <title>No Extraviar</title>
 </head>
 <body>
-    <section class="gridContainerHistorias">
-        <div class="logoHeader logoNoExtraviar">
-            <img src="../imagenes/logoNoExtraviar.jpeg" alt="" ">
-        </div>
 
-        <div class="gridItem header">            
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="./discografia.html">DISCOGRAFÍA</a></li>
-            <li><a href="./fotos.html" >FOTOS</a></li>
-            <li><a href="./videos.html" >VIDEOS</a></li>
-            <li><a href="./historias.html" class="underline">HISTORIAS</a></li>
-            <li><a href="./contacto.html">CONTACTO</a></li>            
-        </div>
+  
+
+  <!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  -->
 
 
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img class="w-75 w-sm-50 rounded-circle" src="../imagenes/isologo.jpg" alt=""></a>
 
-              
-        
-        
+      <!-- HAMBURGUESA -->
+
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown " aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse head " id="navbarNavDropdown">
+        <ul class="navbar-nav w-100 justify-content-evenly c-blanco display-6">
+          <li class="nav-item">
+            <a class=" active fw-bold" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="./discografia.html">Discografía</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="./fotos.html">Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="./videos.html">Videos</a>
+          </li> <li class="nav-item">
+            <a class="fw-bold" href="./historias.html">Historia/s</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="./contacto.html">Contacto</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+
+  <!-- INDEX --><!-- INDEX --><!-- INDEX --><!-- INDEX --><!-- INDEX --><!-- INDEX --><!-- INDEX --><!-- INDEX --><!-- INDEX -->
+
+
+  
+  
+  <section class="row d-flex justify-content-center" id="portada">
     
-        <div class="gridItem footerHistorias">            
-            <li><a href="https://open.spotify.com/artist/6Byr6oN4YOuCSJrdbtKByc?si=U81aXEF4Qdyn3cEcr5fQeQ" target="blank">SPOTIFY</a></li>
-            <li><a href="https://www.youtube.com/user/noextraviaroficial" target="blank">YOUTUBE</a></li>
-            <li><a href="https://www.facebook.com/NoExtraviar" target="blank">FACEBOOK</a></li>
-            <li><a href="https://www.instagram.com/noextraviar/" target="blank">INSTAGRAM</a></li>
- 
-        </div>    
-     
-        <div class="presentacionTag">Presentacion</div>
-
-        <div class="presentacion">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. In asperiores architecto porro repudiandae necessitatibus cum beatae unde tempore quis possimus rem quibusdam maiores eaque, aut quam minima voluptate commodi quisquam?
-            Autem quae voluptate molestias quisquam dolorum iure consequuntur. Iste, quidem in fuga officiis facere eveniet delectus inventore ratione error, nam architecto, commodi adipisci quisquam minima. Amet voluptate rerum facilis repudiandae.</h3>
-        </div>
+    <div class="noticiasTag">
+      <h2 class="mt-4 col-5 col-lg-2 fw-bold display-4 p-3 mb-2 bg-danger text-white">Así empezó...</h2>
+    </div>
 
 
-        <div class="quienSosTag">Quien sos?</div>
-
-        <div class="quienSos">
-            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque quas beatae id tenetur repudiandae, magni illo neque commodi, libero, et nobis rerum vero? Nostrum aut illo impedit sit eos veritatis!</h3>
-
-
-    </section>
-
+    <div class="row noticiaUno">      
+         
+      <div class="col-6 col-lg-5">
+          <h2 class="fw-bold display-5 mt-5 col-12">La casa de Pedro.</h2>
+          <p class="mt-4 display-6 text-start col-12">Fué la primer sala de ensayo, punto de reunión, y sede de juntadas sin horarios. Donde se gestaron los primeros temas y la filosofía de No Extraviar: Hacer lo que se nos dé la gana, como se nos dé la gana.</p>
+      </div>   
+           
+    </div>
 
     
+
+
+    <div class="row noticiaUno mb-5">      
+         
+      <div class="col-6 col-lg-5">
+          <h2 class="fw-bold display-5 mt-5 col-12">Primer ensayo.</h2>
+          <p class="mt-4 display-6 text-start col-12">El primer ensayo de la banda, con la que sería por mucho tiempo la formación estable, se dió en la sala de Elisa, mitica sala de Caseros. Fue como si tocaramos desde hace mucho tiempo! Todo parecía funcionar a la percefección, la quimica, los estilos, pero por sobretodas las cosas, las ganas de seguir tocando juntos.</p>
+      </div>   
+           
+    </div>
+    
+
+
+
+
+  </section>
+
+
+
+  <!-- FOOTER --><!-- FOOTER --><!-- FOOTER --><!-- FOOTER --><!-- FOOTER --><!-- FOOTER -->
+
+  
+  <nav class="navbar footer py-4 display-6 fw-bold container-fluid row ">
+    <ol class="d-flex justify-content-evenly">
+      <li><a href="https://open.spotify.com/artist/6Byr6oN4YOuCSJrdbtKByc?si=U81aXEF4Qdyn3cEcr5fQeQ" target="blank">Spotify</a></li>
+      <li><a href="https://www.youtube.com/user/noextraviaroficial" target="blank">YouTube</a></li>
+      <li><a href="https://www.facebook.com/NoExtraviar" target="blank">Facebook</a></li>
+      <li><a href="https://www.instagram.com/noextraviar/" target="blank">Instagram</a></li>
+    </ol>
+  </nav>
+  
+
+
+  
+  <script src="../js/bootstrap.min.js"></script>
 </body>
+</html>

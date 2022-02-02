@@ -1,92 +1,119 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No Extraviar</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../styleboot.css">
+  <title>No Extraviar</title>
 </head>
 <body>
-    <section class="gridContainerContacto">
-        <div class="logoHeader logoNoExtraviar">
-            <img src="../imagenes/logoNoExtraviar.jpeg" alt="" ">
+
+  
+
+  <!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  --><!-- HEADER  -->
+
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img class="w-75 w-sm-50 rounded-circle" src="../imagenes/isologo.jpg" alt=""></a>
+
+      <!-- HAMBURGUESA -->
+
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown " aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse head " id="navbarNavDropdown">
+        <ul class="navbar-nav w-100 justify-content-evenly c-blanco display-6">
+          <li class="nav-item">
+            <a class=" active fw-bold" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="./discografia.html">Discografía</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="./fotos.html">Fotos</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="./videos.html">Videos</a>
+          </li> <li class="nav-item">
+            <a class="fw-bold" href="./historias.html">Historia/s</a>
+          </li>
+          <li class="nav-item">
+            <a class="fw-bold" href="./contacto.html">Contacto</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+
+    <section class="row d-flex justify-content-center" id="formulario-contacto">
+      <div class="row">
+
+        <div class="Tag">
+            <h2 class="mt-4 col-4 col-lg-2 fw-bold display-4 p-3 mb-2 bg-danger text-white">Contacto</h2>
         </div>
-
-        <div class="gridItem header">            
-            <li><a href="../index.html">INICIO</a></li>
-            <li><a href="./discografia.html">DISCOGRAFÍA</a></li>
-            <li><a href="./fotos.html" >FOTOS</a></li>
-            <li><a href="./videos.html" >VIDEOS</a></li>
-            <li><a href="./historias.html" >HISTORIAS</a></li>
-            <li><a href="./contacto.html" class="underline">CONTACTO</a></li>            
-        </div>
-
-        <div class="formularioTag">Formulario</div>
-
-
-
-        <form class="formularioContacto">
-            <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre">
-            </div>
-    
-            <div>
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido">
-            </div>
-    
-            <div>
-            <label for="email">Email:</label>
-            <input type="email" name="email">
-            </div>
-    
-            <div>
-            <label for="estadoCivil">Estado Civil:</label>
-            <select id="estadoCivil" name="estadoCivil">
-            <option value="noContesta">Prefiero no contestar</option>
-            <option value="soltero">Soltero</option>
-            <option value="casado">Casado</option>
-            </select>
-            </div>
-    
-            <div>
-            <label for="newsletter">Deseas suscribirte al Newsletter?</label>
-            <input type="checkbox" id="newsletter" name="newsletter" value="SI">
-            </div>
-    
-            <div>
-            <label for="comentario">Comentarios:</label><br>
-            <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
-            </div>
-    
-            <div>
-            <input type="submit" value="Enviar formulario">
-            <input type="reset" value="Limpiar formulario">
-            </div>     
-    
-
-        </form>       
+  
+        <div class="col-8 col-lg-8 ">
+          <h2 class="fw-bold display-4 texte-center text-lg-start">Que onda con vos?</h2>  
+          <p class="text-start text-lg-start col-lg-5">Dejanos tu nombre y mail para que podamos contestar tus preguntas o simplemente leer lo que tenés para decirnos. Siempre estamos para escucharte!</p>
         
-        
-    
-        <div class="gridItem footerContacto">            
-            <li><a href="https://open.spotify.com/artist/6Byr6oN4YOuCSJrdbtKByc?si=U81aXEF4Qdyn3cEcr5fQeQ" target="blank">SPOTIFY</a></li>
-            <li><a href="https://www.youtube.com/user/noextraviaroficial" target="blank">YOUTUBE</a></li>
-            <li><a href="https://www.facebook.com/NoExtraviar" target="blank">FACEBOOK</a></li>
-            <li><a href="https://www.instagram.com/noextraviar/" target="blank">INSTAGRAM</a></li>
- 
-        </div>    
+            <form action="" class="w-100 row mb-5">
+               
+               <div  class="col-12 mt-3">
+                 <input type="text" id="nombre-usuario" name="nombre-usuario" class="" placeholder="Nombre">
+               </div>
      
+               <div class="col-12 mt-3">
+                 <input type="text" id="apellido-usuario" name="apellido-usuario" class="" placeholder="Apellido">
+               </div>
+     
+               <div class="col-12 mt-3">
+                 <input type="email" id="email" name="email-usuario" class="" placeholder="Email">
+               </div>
+     
+               <div class="mt-3 form-check m-2">
+                 <input class="form-check-input bg-danger" type="checkbox" value="" id="flexCheckChecked" checked>
+                 <label class="form-check-label" for="flexCheckChecked">
+                   Quiero recibir novedades!
+                 </label>
+               </div>
+     
+               <div class="col-12 col-lg-4 my-3" >
+                 <button class="btn btn-lg bg-light ">Enviar</button>
+               </div>
+            </form>           
         
-
+  
+        </div>
 
     </section>
 
 
-    
+
+  <!-- FOOTER --><!-- FOOTER --><!-- FOOTER --><!-- FOOTER --><!-- FOOTER --><!-- FOOTER -->
+
+  
+  <nav class="navbar footer py-4 display-6 fw-bold container-fluid row ">
+    <ol class="d-flex justify-content-evenly">
+      <li><a href="https://open.spotify.com/artist/6Byr6oN4YOuCSJrdbtKByc?si=U81aXEF4Qdyn3cEcr5fQeQ" target="blank">Spotify</a></li>
+      <li><a href="https://www.youtube.com/user/noextraviaroficial" target="blank">YouTube</a></li>
+      <li><a href="https://www.facebook.com/NoExtraviar" target="blank">Facebook</a></li>
+      <li><a href="https://www.instagram.com/noextraviar/" target="blank">Instagram</a></li>
+    </ol>
+  </nav>
+  
+
+
+  
+  <script src="../js/bootstrap.min.js"></script>
 </body>
+</html>
