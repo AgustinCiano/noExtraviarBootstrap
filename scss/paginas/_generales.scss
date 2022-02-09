@@ -1,0 +1,35 @@
+body{
+    color: $colorTexto;
+    background-color: $colorPrincipal;
+}
+
+.c-blanco li a{
+    color: $colorTexto;
+}
+.htmlActual{
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer{
+    li a{
+        color: $colorTexto;
+        &:hover{
+            color:$colorSecundario;
+            transition: 100ms;
+        }
+    }    
+}
+
+.nav-item a{
+    &:hover{
+        color:$colorSecundario;
+        transition: 100ms;
+    }
+}
