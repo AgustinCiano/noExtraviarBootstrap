@@ -1,0 +1,11 @@
+
+
+Agregué las keywords apropiadas para posicionar la pagina.
+
+A cada html le cambié el titulo que muestra en la pestaña.
+
+Sumé un Icon con el logo de la banda a la pestaña
+
+Agregué un mapa para definir los colores.
+
+Por alguna razon no me toma el comando @mixin, me crashea el sass, ayuda con eso por favor!!

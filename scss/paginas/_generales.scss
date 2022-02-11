@@ -1,10 +1,10 @@
 body{
-    color: $colorTexto;
-    background-color: $colorPrincipal;
+    color: map-get($colores , texto );
+    background-color: map-get($colores , bg);
 }
 
 .c-blanco li a{
-    color: $colorTexto;
+    color:map-get($colores , texto );
 }
 .htmlActual{
     font-weight: bold;
@@ -17,11 +17,13 @@ a{
     text-decoration: none;
 }
 
+
+
 .footer{
     li a{
-        color: $colorTexto;
+        color:map-get($colores , texto );
         &:hover{
-            color:$colorSecundario;
+            color:map-get($colores , secundario );
             transition: 100ms;
         }
     }    
@@ -29,7 +31,7 @@ a{
 
 .nav-item a{
     &:hover{
-        color:$colorSecundario;
+        color:map-get($colores , secundario );
         transition: 100ms;
     }
 }

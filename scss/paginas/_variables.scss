@@ -1,3 +1,19 @@
-$colorPrincipal: rgb(33, 37, 41);
-$colorSecundario: #ec342e;
-$colorTexto: white;
+
+
+
+
+
+$colores: (
+    bg: rgb(33, 37, 41),
+    secundario: #ec342e,
+    texto: white,
+)
+
+
+
+@mixin flexbox ($direction, $evenly){
+    display: flex,
+    flex-direction: $direction,
+    justify-content: $evenly
+
+}
