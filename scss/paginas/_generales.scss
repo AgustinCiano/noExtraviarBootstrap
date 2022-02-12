@@ -20,6 +20,9 @@ a{
 
 
 .footer{
+    &Flex{
+        @extend %footerFlex;
+    }
     li a{
         color:map-get($colores , texto );
         &:hover{

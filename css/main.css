@@ -1,9 +1,7 @@
-/* @mixin flexbox ($direction, $evenly){
-    display: flex,
-    flex-direction: $direction,
-    justify-content: $evenly
+.footerFlex {
+  display: flex;
+  justify-content: space-evenly; }
 
-} */
 body {
   color: white;
   background-color: #212529; }
