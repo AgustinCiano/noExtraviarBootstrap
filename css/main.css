@@ -18,6 +18,10 @@ li {
 a {
   text-decoration: none; }
 
+.imgIndex {
+  width: 70%;
+  object-fit: cover; }
+
 .footer li a {
   color: white; }
   .footer li a:hover {
