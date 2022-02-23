@@ -6,6 +6,10 @@ body{
 .c-blanco li a{
     color:map-get($colores , texto );
 }
+
+.c-blanco a{
+    color:map-get($colores , texto )
+}
 .htmlActual{
     font-weight: bold;
 }
@@ -19,11 +23,8 @@ a{
 
 .imgIndex{
     width: 70%;
-    object-fit: cover
-    
+    object-fit: cover    
 }
-
-
 
 .footer{
     &Flex{
@@ -39,6 +40,13 @@ a{
 }
 
 .nav-item a{
+    &:hover{
+        color:map-get($colores , secundario );
+        transition: 100ms;
+    }
+}
+
+.hover{
     &:hover{
         color:map-get($colores , secundario );
         transition: 100ms;
